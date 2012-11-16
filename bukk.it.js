@@ -3,7 +3,7 @@
 var i = 4;
 var links = document.links;
 var stop = links.length;
-var interval = 10000;
+var interval = 15000;
 var heading = document.body.getElementsByTagName("h1")[0];
 function makeIMG(href) { 
 	var img = document.createElement("img");
